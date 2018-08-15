@@ -88,7 +88,7 @@ class SolarLogReaderService:
             'x-device-token': self.device_token
         }
         data = {
-            'deviceType': 'SOLARLOG',
+            'deviceType': 'SDS_SOLARLOG',
             'data': reading.__dict__
         }
 
