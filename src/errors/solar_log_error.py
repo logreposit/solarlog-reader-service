@@ -1,0 +1,2 @@
+class SolarLogError(Exception):
+    pass
