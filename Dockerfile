@@ -6,4 +6,4 @@ ADD src /opt/logreposit/solarlog-reader-service
 
 WORKDIR /opt/logreposit/solarlog-reader-service
 
-CMD [ "python", "-u", "./solarlog_reader_service.py"  ]
+CMD [ "python", "-u", "./solarlog_reader_service.py" ]
